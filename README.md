@@ -4,14 +4,6 @@ PyTorch implementation extending **[RT-DETRv2](https://github.com/lyuwenyu/RT-DE
 
 ---
 
-## Overview
-
-| Item | Description |
-|------|-------------|
-| **Detector** | RT-DETR v2 (`RTDETRTransformerv2` + `HybridEncoder`) |
-| **Backbone** | PResNet-50vd (configurable) |
-| **Extra modules** | `SR` → high-frequency feature stream; `Fusion` merges SR features with backbone pyramids |
-| **Loss** | `RTDETRCriterionv2` with `Superloss` (see config `weight_dict`) |
 
 ---
 
@@ -23,13 +15,6 @@ PyTorch implementation extending **[RT-DETRv2](https://github.com/lyuwenyu/RT-DE
 
 ## Experimental results (qualitative)
 
-将下列 PNG 放在仓库根目录的 **`assets/`** 下（与下表文件名一致），主页即可显示。
-
-| 内容 | 相对路径 |
-|------|----------|
-| 整体框架图 | `assets/Framework.png` |
-| 稀疏 / 小目标检测对比 | `assets/Detection_Sprase.png` |
-| 超分辨率方法对比（图 2） | `assets/Super_resolution对比图2.png` |
 
 ### 检测对比（Detection_Sprase）
 
