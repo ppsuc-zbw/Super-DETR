@@ -16,11 +16,11 @@ PyTorch implementation extending **[RT-DETRv2](https://github.com/lyuwenyu/RT-DE
 ## Experimental results (qualitative)
 
 
-### 检测对比（Detection_Sprase）
+### （Detection_Sprase）
 
 ![Detection qualitative comparison](assets/Detection_Sprase.png)
 
-### 超分辨率对比（Super_resolution对比图2）
+### （Super_resolution）
 
 ![Super-resolution qualitative comparison](assets/Super_resolution对比图2.png)
 
@@ -38,11 +38,6 @@ Python 3.x + PyTorch (CUDA recommended). Install dependencies according to your 
 torchrun --nproc_per_node=4 tools/train.py -c configs/rtdetrv2/rtdetrv2_r50vd_super.yml
 ```
 
-### Config paths
-
-配置与输出目录在 YAML 中请使用**相对仓库根目录的路径**（或环境变量），避免写死本机绝对路径。
-
----
 
 ## Project layout (core)
 
